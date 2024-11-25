@@ -127,6 +127,7 @@ def display_apks():
                     mime="application/vnd.android.package-archive"
                 ):
                     st.success("Download started!")
+                st.markdown("------")
     
     db.close()
 
